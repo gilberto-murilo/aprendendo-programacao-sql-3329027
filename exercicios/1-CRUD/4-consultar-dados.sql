@@ -2,3 +2,19 @@
 
 
 -- Repita a consulta anterior e dessa vez filtre os registros para que retornem apenas as tracks com o atributo "AlbumId" igual a 1
+
+
+SELECT
+coluna1,
+coluna2
+FROM
+tabela
+WHERE
+condicao;
+
+SELECT Name, Composer, AlbumId
+FROM tracks;
+
+SELECT Name, Composer, AlbumId
+FROM tracks
+WHERE AlbumId = 1;
